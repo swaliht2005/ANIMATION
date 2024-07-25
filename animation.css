@@ -1,0 +1,17 @@
+.animation{
+width: 100px;
+height: 100px;
+background-color: aquamarine;
+animation-name: expand;
+animation-duration: 1s;
+animation-timing-function: ease-in;
+animation-iteration-count: infinite;
+}
+@keyframes expand{
+    from{
+        transform: translate(100px);
+    }
+    to{
+        transform: translate(500px);
+    }
+}
